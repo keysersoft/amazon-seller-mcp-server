@@ -1,0 +1,28 @@
+{
+  "$comment": "Read by scripts/install.sh, scripts/smoke.mjs and the sync workflow. Generated; edit satellites.config.json in HelpCode-ai/anythingmcp instead.",
+  "repo": "amazon-seller-mcp-server",
+  "owner": "keysersoft",
+  "mainRepo": "HelpCode-ai/anythingmcp",
+  "adapters": [
+    {
+      "slug": "amazon-seller",
+      "region": "intl",
+      "requiredEnvVars": [
+        "SPAPI_CLIENT_ID",
+        "SPAPI_CLIENT_SECRET",
+        "SPAPI_REFRESH_TOKEN",
+        "SPAPI_ENDPOINT",
+        "SPAPI_MARKETPLACE_ID",
+        "SPAPI_SELLER_ID"
+      ]
+    }
+  ],
+  "setup": {
+    "type": "adapter"
+  },
+  "smokeCall": {
+    "tool": "amazon_marketplace_ids",
+    "args": {},
+    "mayFailWithoutCredentials": true
+  }
+}

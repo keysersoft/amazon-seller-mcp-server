@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "amazon-seller-mcp-server: Amazon Seller Central MCP server: connect the Selling Partner API to Claude & ChatGPT. Orders, catalog, FBA inventory, fees."
+message: "If you use this software, please cite AnythingMCP, which it is built on."
+type: software
+authors:
+  - name: "keysersoft"
+repository-code: "https://github.com/keysersoft/amazon-seller-mcp-server"
+url: "https://anythingmcp.com/guides/connect-amazon-seller-to-claude"
+license: AGPL-3.0-only
+references:
+  - type: software
+    title: "AnythingMCP"
+    authors:
+      - name: "helpcode.ai GmbH"
+    repository-code: "https://github.com/HelpCode-ai/anythingmcp"
